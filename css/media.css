@@ -74,13 +74,69 @@
   .container {
     position: absolute;
     top: 500px;
-
-    width: 800px;
   }
 
   .main {
-    /*justify-content: flex-start;*/
     margin: 0 20px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aside-menu {
+    width: 500px;
+  }
+
+  .tickets,
+  .aside-menu-button {
+    width: 460px;
+  }
+
+  .main {
+    width: 600px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+
+  .main-poster {
+    max-width: 500px;
+    max-height: 300px;
+
+    border-radius: 50px;
+  }
+
+  .seating {
+    width: 600px;
+  }
+
+  .seating-screen svg {
+    width: 500px;
+    left: 0px;
+  }
+
+  .seating-screen::after {
+    left: 210px;
+  }
+
+  .seating-container {
+    max-width: 480px;
+    margin: 0;
+    margin-left: 110px;
+  }
+
+  .label-seating-place-blue {
+    min-width: 50px;
+    border-radius: 70px;
+  }
+
+  .last-place {
+    display: none;
+  }
+
+  .seating-name > li:nth-child(4) {
+    margin-bottom: 75px;
+  }
+  .seating-name > li:nth-child(6) {
+    margin-bottom: 80px;
   }
 }

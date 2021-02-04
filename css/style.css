@@ -102,8 +102,6 @@ body {
   font-weight: normal;
 
   color: #000;
-
-  overflow: hidden;
 }
 
 img {
@@ -111,8 +109,12 @@ img {
 }
 
 input,
-label {
+label,
+.last-place {
   display: inline-block;
+}
+.last-place {
+  min-width: 140px;
 }
 
 .header {
