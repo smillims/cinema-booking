@@ -1,0 +1,86 @@
+@media screen and (max-width: 1450px) {
+  .container {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .aside-menu {
+    width: 270px;
+  }
+  .aside-menu-h2 {
+    font-size: 70px;
+  }
+  .tickets,
+  .aside-menu-button {
+    width: 250px;
+  }
+  .tickets p {
+    font-size: 55px;
+  }
+  .aside-menu-button {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    position: relative;
+  }
+
+  .header-menu {
+    position: relative;
+    right: -60px;
+    top: 15px;
+  }
+  .label-menu {
+    position: absolute;
+    top: 400px;
+    left: -50px;
+  }
+
+  .input-menu:checked + .label-menu {
+    position: absolute;
+
+    left: -50px;
+  }
+
+  .aside-menu {
+    width: 700px;
+    height: 440px;
+
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+
+  .asime-menu-poster {
+    display: none;
+  }
+
+  .tickets {
+    width: 670px;
+    margin-bottom: 7px;
+  }
+
+  .aside-menu-tickets-green {
+    margin-top: 20px;
+  }
+
+  .aside-menu-button {
+    width: 670px;
+  }
+
+  .container {
+    position: absolute;
+    top: 500px;
+
+    width: 800px;
+  }
+
+  .main {
+    /*justify-content: flex-start;*/
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+}
