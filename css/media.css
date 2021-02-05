@@ -238,6 +238,7 @@
 
   .main-poster {
     order: 2;
+    margin-left: 10px;
   }
 
   .main-form {
@@ -257,6 +258,12 @@
   .main-poster {
     max-width: 250px;
     max-height: 250px;
+
+    margin-left: 15px;
+  }
+
+  .main-form {
+    margin-left: -80px;
   }
 
   .seating {
