@@ -193,7 +193,7 @@
   }
 
   .container {
-    max-width: 330px;
+    max-width: 200px;
   }
 
   .main {
@@ -237,7 +237,7 @@
   }
 
   .container {
-    max-width: 300px;
+    max-width: 200px;
   }
 
   .main {
@@ -264,7 +264,7 @@
 
 @media screen and (max-width: 400px) {
   .container {
-    max-width: 250px;
+    max-width: 200px;
   }
 
   .main-poster {
