@@ -262,7 +262,6 @@ label,
 }
 .main-form {
   margin-left: 50px;
-  appearance: none;
 }
 .block-date,
 .block-time {
@@ -271,7 +270,7 @@ label,
 }
 .choose-date,
 .choose-time {
-  appearance: none;
+  /*appearance: none;*/
   width: 100px;
   height: 50px;
 
