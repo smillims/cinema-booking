@@ -266,6 +266,9 @@ label,
 
   position: relative;
 }
+.main-h1 {
+  display: none;
+}
 .main-poster {
   max-width: 558px;
   max-height: 365.77px;
