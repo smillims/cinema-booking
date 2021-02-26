@@ -292,6 +292,8 @@
 
   .aside-menu-button {
     width: 280px;
+    padding-top: 5px;
+    height: 80px;
   }
 
   .main-poster {
