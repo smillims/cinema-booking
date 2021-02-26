@@ -242,6 +242,7 @@
   .aside-menu {
     width: 350px;
     left: 120px;
+    margin-bottom: 10px;
   }
 
   .tickets,
@@ -251,7 +252,6 @@
 
   .aside-menu-button {
     margin-left: 10px;
-    /*padding-top: 5px;*/
   }
 
   .container {
@@ -293,7 +293,6 @@
 
   .aside-menu-button {
     width: 280px;
-    /*padding-top: 5px;*/
     height: 80px;
   }
 
