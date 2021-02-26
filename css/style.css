@@ -195,7 +195,7 @@ label,
 }
 
 .tickets {
-  min-width: 280px;
+  width: 280px;
   max-width: 280px;
   height: 70px;
 
@@ -204,6 +204,7 @@ label,
   align-items: center;
 
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 
   margin: 0 auto;
   margin-bottom: 6px;
