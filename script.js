@@ -22,27 +22,27 @@ function numberOfTickets(target) {
 }
 
 function generateTicketInfoBlock(target, row, seat, id) {
+  if (target.getAttribute("name") === "green") asideMenuGreenTicket.appendChild(createPlace(row, seat, id));
+  if (target.getAttribute("name") === "yellow") asideMenuYellowTicket.appendChild(createPlace(row, seat, id));
+  if (target.getAttribute("name") === "blue") asideMenuBlueTicket.appendChild(createPlace(row, seat, id));
+}
+
+function createPlace(row, seat, id) {
   const divMoviePlace = document.createElement("div");
 
   divMoviePlace.classList.add("movie-block-inside");
   divMoviePlace.dataset.id = id;
   divMoviePlace.innerHTML = `<div class="movie-first-column">
-											<p class="movie-place">Row: ${row}</p>
-											<p class="movie-row">Place: ${seat}</p>
-										</div>
-										<div class="movie-second-column">
-											<p class="movie-text-1">Have</p>
-											<p class="movie-text-2">good</p>
-											<p class="movie-text-3">day!</p>
-										</div>`;
+      <p class="movie-place">Row: ${row}</p>
+      <p class="movie-row">Place: ${seat}</p>
+   </div>
+   <div class="movie-second-column">
+      <p class="movie-text-1">Have</p>
+      <p class="movie-text-2">good</p>
+      <p class="movie-text-3">day!</p>
+   </div>`;
 
-  if (target.getAttribute("name") === "green") {
-    asideMenuGreenTicket.appendChild(divMoviePlace);
-  } else if (target.getAttribute("name") === "yellow") {
-    asideMenuYellowTicket.appendChild(divMoviePlace);
-  } else if (target.getAttribute("name") === "blue") {
-    asideMenuBlueTicket.appendChild(divMoviePlace);
-  }
+  return divMoviePlace;
 }
 
 function removeTicketInfoBlock(id) {
